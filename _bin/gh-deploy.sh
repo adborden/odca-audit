@@ -30,8 +30,8 @@ GITHUB_REPO="github.com/${repo_name}"
 rm -rf $build_dir
 
 # Build
-if [[ -x ./_bin/build.sh ]]; then
-  ./_bin/build.sh
+if [[ -e ${project_dir}/package.json ]]; then
+  npm run build
 else
   jekyll build
 fi

@@ -11,4 +11,4 @@ deploy:
   script: ./_bin/gh-deploy.sh adborden/odca-audit
   skip_cleanup: true
   on:
-    branch: master
+    branch: travis
