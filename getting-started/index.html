@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html ng-app="odca">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Getting started</title>
+  <meta name="description" content="Welcome to the ODCA Audit. This reads ballot information from Google sheets for the City of Oakland.
+">
+
+  <link rel="stylesheet" href="/odca-audit/assets/css/main.css">
+  <link rel="stylesheet" href="/odca-audit/assets/css/custom.css">
+  <link rel="canonical" href="https://adborden.github.io/odca-audit/getting-started/">
+  <script src="https://apis.google.com/js/api.js"></script>
+</head>
+
+
+  <body>
+
+    <header>
+
+  <div>
+
+    <nav class="navbar navbar-default">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/odca-audit/">ODCA Audit</a>
+      </div>
+
+      <div id="navbar-collapse" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+        
+          
+          <li><a href="/odca-audit/about/">About</a></li>
+          
+        
+          
+          <li><a href="/odca-audit/candidates/">Candidates</a></li>
+          
+        
+          
+          <li><a href="/odca-audit/committees/">Committees</a></li>
+          
+        
+          
+          <li><a href="/odca-audit/getting-started/">Getting started</a></li>
+          
+        
+          
+        
+          
+        
+        </ul>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="container">
+  <div class="row">
+    <h1 class="col-sm-12">Getting started</h1>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12">
+      <p>You can edit <code class="highlighter-rouge">getting-started.md</code> to change this page. Jekyll understands many
+formats, including markdown and HTML. To change the <a href="/odca-audit/">home page</a>, edit <code class="highlighter-rouge">index.html</code>.</p>
+
+<p>You can add additional pages by copying the <code class="highlighter-rouge">new-page.html</code> template and edit
+the <code class="highlighter-rouge">published</code> attribute in the front matter:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>---
+layout: default
+title: Your new page
+permalink: /new-page/
+published: true
+---
+</code></pre>
+</div>
+
+<h2 id="sassscss">SASS/SCSS</h2>
+
+<p>Jekyll uses <a href="http://sass-lang.com/">SASS/SCSS</a> to create CSS. You can add your
+own styles to <code class="highlighter-rouge">_sass/_custom.scss</code>.</p>
+
+<p>Not familiar with SCSS? No problem, you can just write CSS to <code class="highlighter-rouge">assets/css/custom.css</code></p>
+
+<h2 id="javascript">Javascript</h2>
+
+<p>The index page loads <code class="highlighter-rouge">assets/js/index.js</code>. Other pages don’t load anything by
+default. You can add the <code class="highlighter-rouge">javascript</code> to a page’s front matter to load a specific
+file, e.g.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>---
+layout: page
+title: Getting started
+javascript: getting-started.js
+---
+</code></pre>
+</div>
+
+<p>Will load <code class="highlighter-rouge">assets/js/getting-started.js</code>.</p>
+
+<h2 id="helpful-resources">Helpful resources</h2>
+
+<p>If you have trouble, start with the <a href="https://jekyllrb.com/docs/home/">Jekyll
+documentation</a> which is the main technology
+behind this project.</p>
+
+<p>If you’re really stuck, you can reach out to us by <a href="https://github.com/adborden/jekyll-prototype">opening an
+issue</a> on github.</p>
+
+    </div>
+  </div>
+</main>
+
+
+    <footer class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <a href="#">Return to top</a>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="/odca-audit/assets/javascripts/jquery.min.js"></script>
+    <script src="/odca-audit/assets/javascripts/bootstrap.min.js"></script>
+    
+  </body>
+
+</html>
